@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0c0e">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="no-referrer">
+  <title>Accès privé — Gorilla / Fieldnotes</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/gorilla-mark.svg">
+  <link rel="stylesheet" href="/assets/site.css">
+  <link rel="stylesheet" href="/assets/auth.css">
+  <script src="/assets/auth.js" defer></script>
+</head>
+<body class="auth-body">
+  <main class="auth-layout">
+    <section class="auth-panel" aria-labelledby="auth-title">
+      <a class="auth-brand" href="/login.html" aria-label="Gorilla Fieldnotes">
+        <img src="/assets/gorilla-mark.svg" alt="" width="48" height="48">
+        <span>GORILLA / FIELDNOTES<small>INDEPENDENT TECHNICAL ARCHIVE</small></span>
+      </a>
+      <div class="auth-kicker"><span class="status-dot" aria-hidden="true"></span> ACCÈS RESTREINT · CLÉ REQUISE</div>
+      <h1 id="auth-title">L’accès se mérite.<span>La clé suffit.</span></h1>
+      <p class="auth-intro">Cette archive n’est pas publique. Entre la clé d’accès fournie par l’administrateur pour ouvrir les répertoires techniques.</p>
+      <form data-access-form novalidate>
+        <label for="access-key">Clé d’accès</label>
+        <div class="key-input-wrap">
+          <input id="access-key" name="key" type="password" autocomplete="off" autocapitalize="none" spellcheck="false" required minlength="1" maxlength="512" placeholder="Saisir la clé d’accès" aria-describedby="auth-message" autofocus>
+          <button class="reveal-key" type="button" data-reveal-key aria-label="Afficher la clé d’accès" aria-pressed="false">VOIR</button>
+        </div>
+        <button class="auth-submit" type="submit" data-submit>OUVRIR L’ARCHIVE <span aria-hidden="true">↗</span></button>
+        <p id="auth-message" class="auth-message" data-auth-message role="status" aria-live="polite"></p>
+      </form>
+      <div class="auth-foot"><span>SESSION SIGNÉE · HTTPONLY COOKIE</span><span>NO TRACKING / NO ACCOUNT</span></div>
+    </section>
+    <aside class="auth-aside" aria-label="Identité du projet">
+      <div class="aside-index">G / 01—05</div>
+      <img class="auth-watermark" src="/assets/gorilla-mark.svg" alt="" width="150" height="150">
+      <p>Pas de mise en scène.<br>Juste les sources, les outils et le contexte.</p>
+      <span class="aside-rail">PRIVATE KNOWLEDGE INDEX</span>
+    </aside>
+  </main>
+</body>
+</html>

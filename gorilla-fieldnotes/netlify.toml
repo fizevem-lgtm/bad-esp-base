@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Protect every published request at the edge. The function explicitly allows
+# only the login shell and non-sensitive static assets before authentication.
+[[edge_functions]]
+  function = "access-gate"
+  path = "/*"

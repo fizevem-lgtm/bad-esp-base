@@ -1,0 +1,11 @@
+{
+  "name": "gorilla-fieldnotes",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Restricted-access technical resource index",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

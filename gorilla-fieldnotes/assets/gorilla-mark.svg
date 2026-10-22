@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="gorilla-title">
+<title id="gorilla-title">Emblème Gorilla Fieldnotes</title>
+<path fill="#438bff" d="M12 8 23 12 32 8 41 12 52 8 58 22 55 39 49 50 40 56 32 61 24 56 15 50 9 39 6 22Z"/>
+<path fill="#0b0c0e" d="M15 20 25 17 32 20 39 17 49 20 47 31 42 35 22 35 17 31Z"/>
+<path fill="#e9ebef" d="M18 24 28 22 29 29 20 30Z M35 22 45 24 43 30 34 29Z"/>
+<path fill="#0b0c0e" d="M24 25 28 25 27 28 23 28Z M36 25 40 25 41 28 37 28Z"/>
+<path fill="#e9ebef" d="M23 36 41 36 46 43 40 51 32 54 24 51 18 43Z"/>
+<path fill="#0b0c0e" d="M27 40 37 40 41 44 37 49 27 49 23 44Z"/>
+<path d="M21 44 27 42 M43 44 37 42 M29 46h6" fill="none" stroke="#438bff" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

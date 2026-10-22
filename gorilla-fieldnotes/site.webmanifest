@@ -1,0 +1,16 @@
+{
+  "name": "Gorilla / Fieldnotes",
+  "short_name": "Gorilla Index",
+  "description": "Archive technique indépendante à accès restreint : Linux, Pentest, OPSEC, GEOINT et OSINT.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0c0e",
+  "theme_color": "#0b0c0e",
+  "icons": [
+    {
+      "src": "/assets/gorilla-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
